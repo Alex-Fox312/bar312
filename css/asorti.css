@@ -1,0 +1,66 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.slide_asorti {
+  width: 60%;
+}
+
+.asorti_block {
+  display: block;
+  width: 99%;
+}
+
+.bear_block,
+.cidre_block,
+.vine_block,
+.eat_block {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1rem;
+  background-color: rgba(207, 206, 204, 0.747);
+  box-shadow: 0 0 5px 10px rgba(207, 206, 204, 0.747);
+  width: 98%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+.bear_block {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.slide_asorti {
+  width: 25rem;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .slide_asorti {
+    width: 7rem;
+  }
+
+  .bear_block,
+  .cidre_block,
+  .vine_block,
+  .eat_block {
+    margin-bottom: 5%;
+  }
+
+  .contact {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .contact-block {
+    width: 90%;
+    text-align: center;
+  }
+
+  .map {
+    width: 225;
+    height: 150;
+  }
+}
